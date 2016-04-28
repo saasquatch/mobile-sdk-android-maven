@@ -4,13 +4,15 @@ The Referral SaaSquatch Android SDK integrates a referral program into your Andr
 
 We're going to add the SDK into our project and start using it to interface with Referral SaaSquatch.
 
+For a working demo implementation, check out our [Sample App](https://github.com/saasquatch/mobile-sdk-android-sample "Sample App").
+
 
 Installation
 ------------
 
 The minimum Android API required to use this SDK is 15.
 
-You can install the SDK from the maven repository, or download the aar and manually include the library.
+You can install the latest version of the SDK from the maven repository, or download the aar and manually include the library.
 
 ###Install from the repository
 
@@ -23,7 +25,7 @@ allprojects {
         jcenter()
         // Include the SDK maven repository
         maven {
-            url 'https://github.com/path/to/repo/raw/master/'
+            url 'https://github.com/saasquatch/mobile-sdk-android-maven/raw/master/'
         }
     }
 }
@@ -35,11 +37,11 @@ Next, add the dependency in your *module's* `build.gradle` file:
 // ...
 dependencies {
     // ...
-    compile 'com.wholepunk.saasquatch:saasquatch-sdk:1.0.0'
+    compile 'com.wholepunk.saasquatch:saasquatch-sdk-android:1.0.0'
 }
 ```
 
-The SDK is now ready for use in your project.
+Run a gradle sync and the SDK is now ready for use in your project.
 
 ###Manual install
 
@@ -90,7 +92,7 @@ To demonstrate how to use the SDK, let's walk through registering a user with Re
 
 ####Register a user with Referral SaaSquatch
 
-To register a user, we provide user information to Referral SaaSquatch. We provide our tenant alias which identifies our app. A userId from our system is passed to SaaSquatch to uniquely identify our users. An accountId, which Referral SaaSquatch uses to group users together; see [Shared vs Solo Accounts](http://docs.referralsaasquatch.com/shared-vs-solo-accounts/ "Shared vs Solo Accounts") to see what you should use here.
+To register a user, we provide user information to Referral SaaSquatch. We provide our tenant alias which identifies our app. A userId from our system is passed to SaaSquatch to uniquely identify our users. We pass in an accountId, which Referral SaaSquatch uses to group users together; see [Shared vs Solo Accounts](http://docs.referralsaasquatch.com/shared-vs-solo-accounts/ "Shared vs Solo Accounts") to see what you should use here.
 Lastly, we provide a valid JSONObject containing information about our user. For a description of the available `userInfo` fields, please see (TODO: LINK SAASQUATCH DOCS). Here is an example:
 
 ```java
