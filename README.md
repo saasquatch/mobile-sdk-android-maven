@@ -37,7 +37,7 @@ Next, add the dependency in your *module's* `build.gradle` file:
 // ...
 dependencies {
     // ...
-    compile 'com.wholepunk.saasquatch:saasquatch-sdk-android:1.0.0'
+    compile 'com.wholepunk.saasquatch:saasquatch-sdk-android:1.0.2'
 }
 ```
 
