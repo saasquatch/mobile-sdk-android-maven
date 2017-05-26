@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>wholepunk.saasquatch</groupId>
+  <groupId>com.wholepunk.saasquatch</groupId>
   <artifactId>saasquatch-sdk-android</artifactId>
   <versioning>
     <release>1.0.4</release>
@@ -8,6 +8,6 @@
       <version>1.0.3</version>
       <version>1.0.4</version>
     </versions>
-    <lastUpdated>20170526181720</lastUpdated>
+    <lastUpdated>20170526213534</lastUpdated>
   </versioning>
 </metadata>
