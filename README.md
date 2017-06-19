@@ -1,16 +1,11 @@
-Referral SaaSquatch Android Mobile SDK
-==========================================
-The Referral SaaSquatch Android SDK integrates a referral program into your Android app.
+# Referral SaaSquatch Android SDK
 
-This repository containts the Referral SaaSquatch Android SDK `saasquatch-sdk-android` module binaries.
+The Referral SaaSquatch Android SDK integrates a referral program into your Android app. Our mobile SDK has been designed to be part of a hybrid mobile device implementation. Client-side SDK elements are used in conjunction with server-side REST API functionality for the most complete, and secure, solution.
 
-To download, select the `Download ZIP` option from the green `Clone or download` drop-down.
+With our SDK you can register your users with Referral SaaSquatch, track users referrals, and fetch users information such as referral codes, share links, and rewards. For more information about our iOS SDK please visit our [Android SDK Overview](https://docs.referralsaasquatch.com/mobile/android/).
 
-Resources
----------
+## Integration
+Please refer to our [Android SDK Quickstart Guide](https://docs.referralsaasquatch.com/mobile/android/quickstart/) for installation and integration information.
 
-The Referral SaaSquatch Developer Documentation contains further information about our Android SDK:
-
-* [Overview of our Android SDK](https://docs.referralsaasquatch.com/mobile/android/)
-* [Quickstart guide for the Android SDK](https://docs.referralsaasquatch.com/mobile/android/quickstart/)
-* [Sample App](https://github.com/saasquatch/mobile-sdk-android-sample "Sample App")
+## Sample App
+A sample app that shows how our Android SDK can be integrated into your apps can be found [here](https://github.com/saasquatch/mobile-sdk-android-sample). Instructions on how to set up and use our sample app have been included.
