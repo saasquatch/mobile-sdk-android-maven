@@ -4,6 +4,9 @@ The Referral SaaSquatch Android SDK integrates a referral program into your Andr
 
 With our SDK you can register your users with Referral SaaSquatch, track users referrals, and fetch users information such as referral codes, share links, and rewards. For more information about our iOS SDK please visit our [Android SDK Overview](https://docs.referralsaasquatch.com/mobile/android/).
 
+## Requirements
+The minimum Android API required to use this SDK is 15.
+
 ## Integration
 Please refer to our [Android SDK Quickstart Guide](https://docs.referralsaasquatch.com/mobile/android/quickstart/) for installation and integration information.
 
